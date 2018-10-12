@@ -1,6 +1,5 @@
 infgen.c:
-	wget http://zlib.net/infgen.c.gz
-	gunzip infgen.c.gz
+	wget https://raw.githubusercontent.com/madler/infgen/master/infgen.c
 
 all: infgen.c
 	gcc -o infgen infgen.c
